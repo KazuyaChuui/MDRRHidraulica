@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		946C21931A0028D80089C076 /* Hydraulic Operation.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 946C21921A0028D80089C076 /* Hydraulic Operation.tiff */; };
 		949082481A001FD300F86D2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 949082471A001FD300F86D2C /* main.m */; };
 		9490824B1A001FD300F86D2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9490824A1A001FD300F86D2C /* AppDelegate.m */; };
 		9490824E1A001FD300F86D2C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9490824D1A001FD300F86D2C /* ViewController.m */; };
@@ -14,6 +15,18 @@
 		949082531A001FD300F86D2C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 949082521A001FD300F86D2C /* Images.xcassets */; };
 		949082561A001FD300F86D2C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 949082541A001FD300F86D2C /* LaunchScreen.xib */; };
 		949082621A001FD300F86D2C /* MDRRHidraulicaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 949082611A001FD300F86D2C /* MDRRHidraulicaTests.m */; };
+		9490826D1A00206A00F86D2C /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9490826B1A00206A00F86D2C /* Bolts.framework */; };
+		9490826E1A00206A00F86D2C /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9490826C1A00206A00F86D2C /* Parse.framework */; };
+		949082791A0020BA00F86D2C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9490826F1A0020BA00F86D2C /* AudioToolbox.framework */; };
+		9490827A1A0020BA00F86D2C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949082701A0020BA00F86D2C /* CFNetwork.framework */; };
+		9490827B1A0020BA00F86D2C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949082711A0020BA00F86D2C /* CoreGraphics.framework */; };
+		9490827C1A0020BA00F86D2C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949082721A0020BA00F86D2C /* CoreLocation.framework */; };
+		9490827D1A0020BA00F86D2C /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 949082731A0020BA00F86D2C /* libz.dylib */; };
+		9490827E1A0020BA00F86D2C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949082741A0020BA00F86D2C /* MobileCoreServices.framework */; };
+		9490827F1A0020BA00F86D2C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949082751A0020BA00F86D2C /* QuartzCore.framework */; };
+		949082801A0020BA00F86D2C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949082761A0020BA00F86D2C /* Security.framework */; };
+		949082811A0020BA00F86D2C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949082771A0020BA00F86D2C /* StoreKit.framework */; };
+		949082821A0020BA00F86D2C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949082781A0020BA00F86D2C /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		946C21921A0028D80089C076 /* Hydraulic Operation.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Hydraulic Operation.tiff"; sourceTree = "<group>"; };
 		949082421A001FD300F86D2C /* MDRRHidraulica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDRRHidraulica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		949082461A001FD300F86D2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		949082471A001FD300F86D2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +54,18 @@
 		9490825B1A001FD300F86D2C /* MDRRHidraulicaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDRRHidraulicaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		949082601A001FD300F86D2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		949082611A001FD300F86D2C /* MDRRHidraulicaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDRRHidraulicaTests.m; sourceTree = "<group>"; };
+		9490826B1A00206A00F86D2C /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		9490826C1A00206A00F86D2C /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		9490826F1A0020BA00F86D2C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		949082701A0020BA00F86D2C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		949082711A0020BA00F86D2C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		949082721A0020BA00F86D2C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		949082731A0020BA00F86D2C /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		949082741A0020BA00F86D2C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		949082751A0020BA00F86D2C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		949082761A0020BA00F86D2C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		949082771A0020BA00F86D2C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		949082781A0020BA00F86D2C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +73,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				949082791A0020BA00F86D2C /* AudioToolbox.framework in Frameworks */,
+				9490827A1A0020BA00F86D2C /* CFNetwork.framework in Frameworks */,
+				9490827B1A0020BA00F86D2C /* CoreGraphics.framework in Frameworks */,
+				9490827C1A0020BA00F86D2C /* CoreLocation.framework in Frameworks */,
+				9490827D1A0020BA00F86D2C /* libz.dylib in Frameworks */,
+				9490827E1A0020BA00F86D2C /* MobileCoreServices.framework in Frameworks */,
+				9490827F1A0020BA00F86D2C /* QuartzCore.framework in Frameworks */,
+				949082801A0020BA00F86D2C /* Security.framework in Frameworks */,
+				949082811A0020BA00F86D2C /* StoreKit.framework in Frameworks */,
+				949082821A0020BA00F86D2C /* SystemConfiguration.framework in Frameworks */,
+				9490826E1A00206A00F86D2C /* Parse.framework in Frameworks */,
+				9490826D1A00206A00F86D2C /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +98,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		946C21911A0028C50089C076 /* Images Example */ = {
+			isa = PBXGroup;
+			children = (
+				946C21921A0028D80089C076 /* Hydraulic Operation.tiff */,
+			);
+			name = "Images Example";
+			sourceTree = "<group>";
+		};
 		949082391A001FD300F86D2C = {
 			isa = PBXGroup;
 			children = (
+				9490826F1A0020BA00F86D2C /* AudioToolbox.framework */,
+				949082701A0020BA00F86D2C /* CFNetwork.framework */,
+				949082711A0020BA00F86D2C /* CoreGraphics.framework */,
+				949082721A0020BA00F86D2C /* CoreLocation.framework */,
+				949082731A0020BA00F86D2C /* libz.dylib */,
+				949082741A0020BA00F86D2C /* MobileCoreServices.framework */,
+				949082751A0020BA00F86D2C /* QuartzCore.framework */,
+				949082761A0020BA00F86D2C /* Security.framework */,
+				949082771A0020BA00F86D2C /* StoreKit.framework */,
+				949082781A0020BA00F86D2C /* SystemConfiguration.framework */,
 				949082441A001FD300F86D2C /* MDRRHidraulica */,
 				9490825E1A001FD300F86D2C /* MDRRHidraulicaTests */,
 				949082431A001FD300F86D2C /* Products */,
@@ -81,6 +137,9 @@
 		949082441A001FD300F86D2C /* MDRRHidraulica */ = {
 			isa = PBXGroup;
 			children = (
+				946C21911A0028C50089C076 /* Images Example */,
+				9490826B1A00206A00F86D2C /* Bolts.framework */,
+				9490826C1A00206A00F86D2C /* Parse.framework */,
 				949082491A001FD300F86D2C /* AppDelegate.h */,
 				9490824A1A001FD300F86D2C /* AppDelegate.m */,
 				9490824C1A001FD300F86D2C /* ViewController.h */,
@@ -200,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				949082511A001FD300F86D2C /* Main.storyboard in Resources */,
+				946C21931A0028D80089C076 /* Hydraulic Operation.tiff in Resources */,
 				949082561A001FD300F86D2C /* LaunchScreen.xib in Resources */,
 				949082531A001FD300F86D2C /* Images.xcassets in Resources */,
 			);
@@ -345,6 +405,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MDRRHidraulica",
+				);
 				INFOPLIST_FILE = MDRRHidraulica/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -355,6 +419,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MDRRHidraulica",
+				);
 				INFOPLIST_FILE = MDRRHidraulica/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,6 +482,7 @@
 				949082671A001FD300F86D2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		949082681A001FD300F86D2C /* Build configuration list for PBXNativeTarget "MDRRHidraulicaTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +491,7 @@
 				9490826A1A001FD300F86D2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
